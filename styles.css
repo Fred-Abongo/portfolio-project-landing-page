@@ -31,13 +31,13 @@ header p {
 
 #features {
     padding: 50px 20px;
-    background: rgba(0, 0, 255, 0.7); /* Blue background */
+    background: rgba(0, 128, 0, 0.7); /* Green background */
     margin-bottom: 20px;
 }
 
 #about-developer {
     padding: 50px 20px;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 255, 0.7); /* Blue background */
     margin-bottom: 20px;
 }
 
@@ -54,4 +54,8 @@ header p {
 footer {
     padding: 20px;
     background: rgba(0, 0, 0, 0.5);
+}
+
+.contact {
+    color: blue;
 }
