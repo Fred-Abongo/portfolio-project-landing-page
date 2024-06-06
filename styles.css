@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #6c7ae0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #6c7ae0;
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+#about-developer p, #links p {
+    margin: 10px 0;
+}
+
+#links p a {
+    color: #6c7ae0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#links p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Additional styles for better spacing and responsiveness */
+
+header h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+#about-project, #features, #about-developer, #links {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    section {
+        padding: 15px;
+        margin: 15px 10px;
+    }
+}
