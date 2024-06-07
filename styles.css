@@ -1,9 +1,6 @@
 body {
-    background-image: url('images/background.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    color: #fff;
+    background-color: #F5F5DC; /* Beige background color */
+    color: #333; /* Dark Grey text color */
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 0;
@@ -12,7 +9,8 @@ body {
 
 header {
     padding: 50px 0;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: #333; /* Dark Grey background */
+    color: #F5F5DC; /* Beige text color */
 }
 
 header h1 {
@@ -26,13 +24,16 @@ header p {
 section {
     padding: 50px 20px;
     margin-bottom: 20px;
+    background-color: #F5F5DC; /* Beige background color */
+    color: #333; /* Dark Grey text color */
+    border: 1px solid #333; /* Dark Grey border */
 }
 
 #about-project,
 #features,
 #about-developer,
 #links {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for sections */
+    border-radius: 10px;
 }
 
 .feature {
@@ -41,9 +42,10 @@ section {
 
 footer {
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: #333; /* Dark Grey background */
+    color: #F5F5DC; /* Beige text color */
 }
 
 .contact {
-    color: blue;
+    color: #1E90FF; /* Dodger Blue for contrast */
 }
